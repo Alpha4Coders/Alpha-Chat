@@ -9,7 +9,7 @@ const cleanUrl = (url) => {
 
 // Configure axios defaults for all requests
 axios.defaults.withCredentials = true;
-axios.defaults.timeout = 15000; // 15 second timeout
+axios.defaults.timeout = 55000; // 15 second timeout
 
 // Add request interceptor for debugging and URL cleaning
 axios.interceptors.request.use(
